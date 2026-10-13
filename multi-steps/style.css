@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.continer{
+    position: relative;
+    width:29vw;
+    padding: 14px;
+    height: 60vh;
+    overflow: hidden;
+    margin-top: 12%;
+    background:linear-gradient(176deg,hsl(213, 19%, 18%), hsl(216, 12%, 8%)80%);
+    border-radius: 20px;
+}
+.header{
+    position: relative;
+    width: 90%;
+    padding: 23px;
+    height: 23%;
+}
+#i{
+    position: absolute;
+    left: 1%;
+    padding: 5px;
+    top: 20px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    color: rgb(255, 183, 0);
+    border: 0.6px solid rgba(158, 156, 156, 0.473);
+    background-color:rgba(158, 156, 156, 0.27);
+}
+.ih{
+  display: none;
+}
+.step{
+    width: 40%;
+    height: 90%;
+}
+.step h1{
+    color: white;
+}
+.step p{
+    font-size: 14px;
+    color: gray;
+}
+.pro1,.pro2,.pro3,.pro4,.pro5{
+    width: 14%;
+    position: relative;
+    height: 42%;
+    background-color: hsla(217, 12%, 63%, 0.392);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+
+.pro1:hover{
+  background-color: rgb(255, 183, 0);
+  color: white;
+}
+.pro2:hover{
+    background-color: rgb(255, 183, 0);
+  color: white;
+}
+.pro3:hover{
+    background-color: rgb(255, 183, 0);
+    color: white;
+}
+.pro4:hover{
+    background-color: rgb(255, 183, 0);
+    color: white;
+}
+.pro5:hover{
+    background-color: rgb(255, 183, 0);
+    color: white;   
+}
+.progress-bar{
+    position: relative;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 80%;
+    gap: 32px;
+    height: 28%;
+    color: white;
+    margin-left: 29px;
+}
+.next{
+    width: 90%;
+    height: 5vh;
+    border: none;
+    border-radius: 18px;
+    background-color: rgb(255, 183, 0);
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.next:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+.active{
+    background-color:white;
+    color:black;
+}
+
+#d{
+    width: 165vw;
+    gap: 40px;
+    height: 25vh;
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    transition: all 0.4s ease-out;
+}
+#img{
+    width: 35%;
+    height: 30%;
+    position: absolute;
+    top: 14%;
+}
+.fd{
+    width: 60%;
+    height: 11%;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgba(75, 74, 73, 0.4);
+    color: rgb(197, 149, 17);
+}
+
+#btns{
+gap: 7px;
+position: absolute;
+bottom: -0;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 90%;
+height: 10vh;
+}
